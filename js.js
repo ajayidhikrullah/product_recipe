@@ -523,7 +523,7 @@ function floo(){
 
 
 // get the submit button and click on it to check for product
-document.querySelector('button').addEventListener('click', function() { 
+document.querySelector('button').addEventListener('click', function(e) { 
 	// alert('helo you clicked me!');
 	//this takes value frrom user
 	user_input = document.getElementById('product_name').value;
@@ -531,7 +531,8 @@ document.querySelector('button').addEventListener('click', function() {
 	var res = getProductQuantity(user_input);
 	result = document.getElementById('result').innerHTML = res;
 	//initializing the clear user input function value in the text box after submitting
-	// clearUserInput();
+	clearUserInput();
+	e.preventDefault();
 });
 
 
