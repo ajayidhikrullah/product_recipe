@@ -1,0 +1,88 @@
+*, a, ul, li{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style-type: none;
+	/*border-bottom: 2px solid black;*/
+
+}
+
+body{
+	background-color: yellow;
+}
+
+.main-nav{
+	clear: both;
+	margin-bottom: 5px;
+
+}
+
+.main-nav1{
+	clear: both;
+	background-color: #696969;
+	padding: 20px 100px;
+}
+
+
+/*1st link on d left syd of d 1st navbar*/
+.main-nav1-link1{
+
+	float: left;
+	margin: 0 auto 0 auto;
+
+
+}
+
+/*2nd link on d right syd of d 1st navbar*/
+.main-nav1-link2{
+
+		float: right;
+}
+
+/*SSTYLE THE LINKS FROM HERE*/
+ul li{
+	display: inline;
+	text-decoration: none;
+
+}
+
+/*ul li a{
+	color: white;
+	margin: 5px;
+	padding: 10px;
+	/*border-bottom: 2px solid black;*/
+}
+*/
+a{
+	border: 2px solid grey;
+}
+
+#product{
+	margin: 0 auto;
+	border: 2px solid white;
+	width: 500px;
+	margin-top: 50px;
+}
+
+
+
+/*trying to make the two links be on d same lane*/
+
+.main-nav2{
+	clear: both;
+	background-color: black;
+	padding: 20px 100px;
+}
+
+.main-nav2-logo{
+	float: left;
+}
+
+.main-nav2-link1{
+	float: left;
+}
+
+/*search bar*/
+.main-nav2-link2{
+	float: right;
+}
